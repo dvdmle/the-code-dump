@@ -11,7 +11,3 @@ if feelings < 5:
     print("What happened? Would you like to talk about it?")
 else:
     print("Awesome! What's something interesting that happened today?")
-
-
-
-
