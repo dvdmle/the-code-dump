@@ -36,6 +36,10 @@ Eventually, we will work with branches and stuff to compartmentalize our work an
 
 For now, feel free to commit and push to main. Best practice is to be sure to have git-pulled before making any changes, but beware that this can overwrite local work if not done properly. IF GIT PUSH ERRORS, DO NOT FORCE PUSH. Reach out on Discord, please!
 
-The command to sync the repo down from the website is `git pull`. If the changes don't show automatically, reload the file(s) is VSCode by closing without saving and reopening.
+The command to sync the repo down from the website:
+
+`git pull`
+
+If the changes don't show automatically, reload the file(s) is VSCode by closing without saving and reopening.
 
 go rams
