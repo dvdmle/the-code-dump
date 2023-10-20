@@ -28,6 +28,8 @@ We use this command to commit changes to the repository:
 
 `git commit -am "[PUT YOUR MESSAGE HERE]"`
 
+Remember to save all files before committing!
+
 We use this command to push changes to the GitHub repo:
 
 `git push`
