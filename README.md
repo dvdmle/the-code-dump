@@ -40,6 +40,16 @@ For now, feel free to commit and push to main. Best practice is to be sure to ha
 
 The command to sync the repo down from the website:
 
+# Update: new branches under main.py (2023.10.23 and 24)
+
+Added three new sub-branches under main.py: mental, physical and sleep. 
+
+Feel free to work in the new sub-branches in order to prevent overwriting codes in local or main.py rep. 
+
+
+
+
+
 `git pull`
 
 If the changes don't show automatically, reload the file(s) is VSCode by closing without saving and reopening.
