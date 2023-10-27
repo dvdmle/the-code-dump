@@ -30,7 +30,7 @@ def sleepWellness():
             print("Additionally, I would recommend speaking to a sleep specialist about this.")
 
 def physicalWellness():
-    pass // TODO: stub!
+    pass # TODO: stub!
 
 def exit():
     print("Goodbye!")
