@@ -12,7 +12,6 @@ def sleepWellness():
     else:
         print("That's a concerningly short duration to be asleep. It'd probably be a good idea to take a nap soon.")
         if sleep_hours <= 2:
-            print()
             print("Additionally, I would recommend speaking to a sleep specialist about this.")
 
 def exit():
@@ -23,9 +22,9 @@ print("Welcome to the mental health app!")
 print()
 print("On a scale of 1 to 10, how are you feeling today?")
 
-feelings = 1
+feelings = 0
 
-while feelings in range(1,11):
+while not feelings in range(1,11):
     feelings = int(input())
 
 if feelings < 3:
@@ -38,6 +37,9 @@ else:
 # Guten Tag!
 # It's new. 
 
+# Sleep wellness portion of the program
 sleepWellness()
+
+# Says goodbye and exits the program
 print()
 exit()
