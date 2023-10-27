@@ -1,3 +1,24 @@
+def sleepWellness():
+    sleep_hours = int(input("How many hours of sleep did you get today? "))
+
+    if sleep_hours > 10:
+        print("That's a lot of sleep hours! You could probably stand to wake up a bit sooner.")
+    elif sleep_hours > 8:
+        print("Good! That's a solid amount of sleep.")
+    elif sleep_hours > 6:
+        print("That's an alright amount. You might consider sleeping in a bit, especially if you're younger.")
+    elif sleep_hours > 4:
+        print("Okay, you would probably benefit from heading to sleep a bit sooner. Consider opening a window or turning a fan on!")
+    else:
+        print("That's a concerningly short duration to be asleep. It'd probably be a good idea to take a nap soon.")
+        if sleep_hours <= 2:
+            print()
+            print("Additionally, I would recommend speaking to a sleep specialist about this.")
+
+def exit():
+    print("Goodbye!")
+    print()
+
 print("Welcome to the mental health app!")
 print()
 print("On a scale of 1 to 10, how are you feeling today?")
@@ -16,3 +37,7 @@ else:
 
 # Guten Tag!
 # It's new. 
+
+sleepWellness()
+print()
+exit()
