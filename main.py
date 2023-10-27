@@ -36,8 +36,7 @@ def exit():
 print("Welcome to the mental health app!")
 print()
 
-# Guten Tag!
-# It's new. 
+
 
 # Sleep wellness portion of the program
 sleepWellness()
