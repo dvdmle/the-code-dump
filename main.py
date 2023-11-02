@@ -11,7 +11,7 @@ def feelingsTracker():
     elif 3 <= feelings <= 8:
         print("Awesome! What's something interesting that happened today?")
     else: 
-        print("Fantstic! Write 3 things that you are grateful today=> ")
+        print("Fantastic! Write 3 things that you are grateful today=> ")
 
 def sleepWellness():
     sleep_hours = int(input("How many hours of sleep did you get today? "))
