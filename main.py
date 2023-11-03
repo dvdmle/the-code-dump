@@ -30,7 +30,25 @@ def sleepWellness():
             print("Additionally, I would recommend speaking to a sleep specialist about this.")
 
 def physicalWellness():
-    pass # TODO: stub!
+    physical_status = int(input("moving to your physical status, on a range of 1 through 10 how do you feel?"))
+
+    if physical_status >= 10:
+        print("That is good, have a good day")
+    elif 5 < physical_status < 8:
+        print("that is normal, there is discofort once in a while, just remember to look over yourself")
+    else:
+        issue = input("What seems to be the issue?")
+        if issue == "headache":
+            print("Lay down for a while, if it happened for a while go to a doctor")
+        elif issue == "injury":
+            print("if a small bleeding injury, disinfect and cover up, if internal reach medical professional")
+        elif issue == "sickness":
+            print("maintain a distance and call local medical opinion")
+        elif issue == "unknown":
+            print("call a doctor for a medical call")
+        else:
+            print("I am unable to help")
+
 
 def exit():
     print("Goodbye!")
@@ -47,6 +65,9 @@ feelingsTracker()
 
 # Sleep wellness portion of the program
 sleepWellness()
+
+# physical wellness portion of program
+physicalWellness()
 
 # Says goodbye and exits the program
 print()
